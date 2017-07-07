@@ -1,3 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env ruby
+require "./lib/app"
 
-ruby './lib/app.rb'
+Web.run!

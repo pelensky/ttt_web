@@ -26,5 +26,4 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "capybara"
   spec.add_dependency "ttt_core", "~> 0.5.0"
   spec.add_dependency "sinatra"
-  spec.add_dependency "shotgun"
 end
