@@ -5,6 +5,8 @@
 This is a web front end Tic Tac Toe game built in Ruby. It will uses my [ttt_core](www.github.com/pelensky/ttt_core) gem.
 
 #### Running instructions
+This can be played on [Heroku](https://ruby-ttt-pelensky.herokuapp.com/).
+Alternatively, you can run it locally by following the instructions below.
 1. Install the gem `gem install ttt_web`
 2. Run the game by running `ttt_web`
 3. In a browser of your choice, navigate to [localhost:4567](localhost:4567)
