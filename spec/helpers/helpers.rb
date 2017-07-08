@@ -7,6 +7,13 @@ module Helpers
     click_button "Start Game"
   end
 
+  def two_computers
+    visit '/'
+    select "Expert Computer", :from => "player_x"
+    select "Simple Computer", :from => "player_o"
+    click_button "Start Game"
+  end
+
   def two_humans_x_wins
     click_button "btn-0"
     click_button "btn-4"

@@ -103,4 +103,7 @@ RSpec.configure do |config|
   # as the one that triggered the failure.
   Kernel.srand config.seed
 =end
+  Capybara.register_driver :rack_test do |app|
+    Capybara::RackTest::Driver.new(app, :respect_data_method => true, :redirect_limit => 20)
+  end
 end
